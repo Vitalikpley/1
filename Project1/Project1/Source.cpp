@@ -16,6 +16,8 @@ int main()
 	int x, y, resault;
 	cin >> x >> y;
 	resault = max(x, y);
+	
+	cout << "resault = " << resault << endl;
 	resault = min(x, y);
 	cout << "resault = " << resault << endl;
 	return 0;
